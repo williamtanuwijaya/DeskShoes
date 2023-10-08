@@ -1,6 +1,12 @@
-
+import Hero from '@/components/Hero';
+import NewProducts from '@/components/NewProducts';
+import Testimonials from '@/components/Testimonials';
 export default function Home() {
   return (
-    <main>Hello</main>
-  )
+    <main>
+      <Hero />
+      <NewProducts/>
+      <Testimonials/>
+    </main>
+  );
 }
