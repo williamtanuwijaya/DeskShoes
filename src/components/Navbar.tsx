@@ -7,10 +7,10 @@ export default function Navbar() {
       <div className="container">
         <div className="flex w-fit gap-10 mx-auto font-medium py-4 text-black">
           <Link className="navbar__link relative" href="/">
-            HOME
+            Home
           </Link>
           <Link className="navbar__link relative" href="/products">
-            PRODUCTS
+            Products
           </Link>
           <Link className="navbar__link relative" href="/contentCreator">
             Content Creator

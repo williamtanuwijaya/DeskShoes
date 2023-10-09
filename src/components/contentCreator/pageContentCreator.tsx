@@ -1,6 +1,9 @@
+'use client';
+import React, { useState } from 'react';
 import biodata from './biodata';
 import Image from 'next/image';
 import { BsFacebook, BsYoutube, BsInstagram } from 'react-icons/bs';
+import Link from 'next/link';
 
 interface SocialIconProps {
   href: string;
@@ -33,6 +36,7 @@ const Biodata: React.FC<BiodataProps> = ({ img, desc, instagram, youtube, facebo
           <SocialIcon href={instagram} icon={<BsInstagram />} />
           <SocialIcon href={youtube} icon={<BsYoutube />} />
           <SocialIcon href={facebook} icon={<BsFacebook />} />
+          <Link href="/contentCreator/formcontentcreator"><button>Hubungi Narasumber</button></Link>
         </div>
       </div>
     </div>
