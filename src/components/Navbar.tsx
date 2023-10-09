@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link className="navbar__link relative" href="/contentCreator">
             Content Creator
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="/blog">
             Blog
           </Link>
           <Link className="navbar__link relative" href="#">

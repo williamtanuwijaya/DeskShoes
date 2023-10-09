@@ -36,7 +36,7 @@ const Biodata: React.FC<BiodataProps> = ({ img, desc, instagram, youtube, facebo
           <SocialIcon href={instagram} icon={<BsInstagram />} />
           <SocialIcon href={youtube} icon={<BsYoutube />} />
           <SocialIcon href={facebook} icon={<BsFacebook />} />
-          <Link href="/contentCreator/formcontentcreator"><button>Hubungi Narasumber</button></Link>
+          <Link href="/contentCreator/formcontentcreator"><button className='bg-slate-950 text-white p-1 rounded-md'>Hubungi Narasumber</button></Link>
         </div>
       </div>
     </div>

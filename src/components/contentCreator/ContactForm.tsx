@@ -35,14 +35,14 @@ const ContactForm = () => {
             <textarea id="message" name="message" className="w-full border border-gray-300 p-2 rounded"></textarea>
           </div>
 
-          <Link href="/">
+          <Link href="/contentCreator">
             <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
               Submit
             </button>
           </Link>
         </form>
 
-        <Link href="/">
+        <Link href="/contentCreator">
           <button className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition duration-300">Close</button>
         </Link>
       </div>
