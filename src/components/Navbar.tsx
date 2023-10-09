@@ -6,13 +6,13 @@ export default function Navbar() {
     <div className="hidden lg:block">
       <div className="container">
         <div className="flex w-fit gap-10 mx-auto font-medium py-4 text-black">
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="/">
             HOME
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="/products">
             PRODUCTS
           </Link>
-          <Link className="navbar__link relative" href="#">
+          <Link className="navbar__link relative" href="/contentCreator">
             Content Creator
           </Link>
           <Link className="navbar__link relative" href="#">

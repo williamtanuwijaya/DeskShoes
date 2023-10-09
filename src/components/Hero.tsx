@@ -20,21 +20,21 @@ export default function Hero() {
       img: '/banner-1.jpg',
       title: 'Cari barangnyo',
       mainTitle: "Judul Barangnyo",
-      price: 'Rp. 10.000 ',
+      price: 'Rp. 10.000',
     },
     {
       id: 1,
       img: '/banner-1.jpg',
       title: 'Cari barangnyo',
       mainTitle: "Judul Barangnyo",
-      price: 'Rp. 10.000 ',
+      price: 'Rp. 10.000',
     },
     {
       id: 2,
       img: '/banner-1.jpg',
       title: 'Cari barangnyo',
       mainTitle: "Judul Barangnyo",
-      price: 'Rp. 10.000 ',
+      price: 'Rp. 10.000',
     },
   ];
 

@@ -1,3 +1,4 @@
+import ButtonLoadMore from '@/components/ButtonLoadMore';
 import Hero from '@/components/Hero';
 import NewProducts from '@/components/NewProducts';
 import Testimonials from '@/components/Testimonials';
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <NewProducts/>
+      <ButtonLoadMore/>
       <Testimonials/>
     </main>
   );
