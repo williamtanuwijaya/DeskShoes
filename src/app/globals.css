@@ -4,17 +4,17 @@
 
 @layer components {
   .header_top__icon_wrapper {
-    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white;
+    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-slate-950 hover:text-black;
   }
   .navbar__link:hover {
-    color: #ff8f9c;
+    color: #000000;
     transition: all 0.4s;
   }
 
   .navbar__link::after {
     position: absolute;
     content: '';
-    background-color: #ff8f9c;
+    background-color: #000000;
     height: 3px;
     width: 100%;
     bottom: -5px;

@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <HeaderTop />
         <HeaderMain />
         <Navbar />
-        <MobNavbar />
+        {/* <MobNavbar /> */}
         {children}
         <Footer />
       </body>
