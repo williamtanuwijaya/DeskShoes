@@ -8,7 +8,6 @@ const BlogPost = ({ params }) => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    // Load comments from local storage on component mount
     const storedComments = localStorage.getItem(`comments_${params.id}`);
     if (storedComments) {
       setComments(JSON.parse(storedComments));
