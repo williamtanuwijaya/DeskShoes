@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-black text-gray-500 text-center py-4 md:py-4 flex-shrink-0">
       <div className="flex-grow"></div>
       <div className="mb-4">
-        Copyright © Logo <br />
+        Copyright © <i>DeskShoes</i> <br />
         All Rights Reserved 2023.
       </div>
       <ul className="flex justify-center space-x-4">

@@ -75,13 +75,17 @@ const ProductCard: React.FC<propsType> = ({ img, title, desc, rating, price }) =
       </div>
 
       <div className="space-y-2 py-2">
-        <h2 className="text-accent font-medium uppercase">{title}</h2>
+        <h2 className="text-slate font-medium uppercase">{title}</h2>
         <p className="text-gray-500 max-w-[150px]">{desc}</p>
         <div>{generateRating(rating)}</div>
         <div className="font-bold flex gap-4">
           Rp{price}
-          <del className='text-gray-500 font-normal'>Rp{parseInt(price) + 5000}</del>
+          <del className="text-gray-500 font-normal">Rp{parseInt(price) + 1000000}</del>
         </div>
+
+        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md">
+          Beli Sekarang
+        </button>
       </div>
     </div>
   );
