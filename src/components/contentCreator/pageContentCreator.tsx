@@ -18,25 +18,29 @@ const SocialIcon: React.FC<SocialIconProps> = ({ href, icon }) => (
 
 interface BiodataProps {
   img: string;
+  title: string;
   desc: string;
   instagram: string;
   youtube: string;
   facebook: string;
 }
 
-const Biodata: React.FC<BiodataProps> = ({ img, desc, instagram, youtube, facebook }) => {
+const Biodata: React.FC<BiodataProps> = ({ img, title, desc, instagram, youtube, facebook }) => {
   return (
-    <div className="flex flex-col lg:flex-row items-center lg:justify-between p-8 lg:p-16 bg-gray-100">
-      <div className="lg:w-1/2 mb-8 lg:mb-0 lg:mr-8">
-        <Image src={img} alt="Profile" width={300} height={400} className="rounded-md" layout="responsive" />
+    <div className="flex flex-col items-center p-8 lg:p-16 bg-gray-100">
+      <div className="mb-8 flex items-center">
+        <img src={img} alt="Profile" width={300} height={300} className="rounded-md" />
       </div>
-      <div className="lg:w-1/2">
+      <div className="text-center max-w-2xl">
+        <h1 className="text-xl font-bold mb-2">{title}</h1>
         <p className="text-lg mb-4">{desc}</p>
-        <div className="flex mt-4">
+        <div className="flex justify-center">
           <SocialIcon href={instagram} icon={<BsInstagram />} />
           <SocialIcon href={youtube} icon={<BsYoutube />} />
           <SocialIcon href={facebook} icon={<BsFacebook />} />
-          <Link href="/contentCreator/formcontentcreator"><button className='bg-slate-950 text-white p-1 rounded-md'>Hubungi Narasumber</button></Link>
+          <Link href="/contentCreator/formcontentcreator">
+            <button className="bg-slate-950 text-white p-1 rounded-md">Hubungi Narasumber</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -30,34 +30,6 @@ const productsData = [
     rating: 4,
     price: '5000',
   },
-  {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
-    rating: 3,
-    price: '5000',
-  },
-  {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
-    rating: 4,
-    price: '5000',
-  },
-  {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
-    rating: 4,
-    price: '5000',
-  },
-  {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
-    rating: 4,
-    price: '5000',
-  },
 ];
 
 export default function NewProducts() {
