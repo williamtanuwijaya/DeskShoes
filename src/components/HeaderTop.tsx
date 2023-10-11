@@ -23,13 +23,6 @@ export default function HeaderTop() {
           <div className="text-gray-500 text">
             <b>Lorem, ipsum.</b> Lorem ipsum dolor sit amet.
           </div>
-
-          <div className="flex gap-4">
-            <select name="language" id="language" className="text-gray-500 text-[12px] w-[80px]">
-              <option value="English">English</option>
-              <option value="French">Indonesia</option>
-            </select>
-          </div>
         </div>
       </div>
     </div>

@@ -3,32 +3,32 @@ import ProductCard from './ProductCard';
 
 const productsData = [
   {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
+    img: '/Sepatu Sneaker Velophasis Luxe Sport II.jpg',
+    title: 'Sepatu Sneaker Velophasis Luxe Sport II',
+    desc: 'Alas kaki',
     rating: 4,
-    price: '5000',
+    price: '2599000',
   },
   {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
+    img: '/Sepatu Kets RS-X 3D.jpg',
+    title: 'Sepatu Kets RS-X 3D',
+    desc: 'Alas kaki',
     rating: 5,
-    price: '5000',
+    price: '1424250',
   },
   {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
+    img: '/Sepatu Slipstream PUMA x THE SMURFS.jpg',
+    title: 'Sepatu Slipstream PUMA x THE SMURFS',
+    desc: 'Alas kaki',
     rating: 3,
-    price: '5000',
+    price: '2199000',
   },
   {
-    img: '/jacket-1.jpg',
-    title: 'NAMO BARANG',
-    desc: 'DESKRIPSI',
+    img: '/Sepatu Sneaker PUMA x 8ENJAMIN Slipstream.jpg',
+    title: 'Sepatu Sneaker PUMA x 8ENJAMIN Slipstream',
+    desc: 'Alas kaki',
     rating: 4,
-    price: '5000',
+    price: '1499250',
   },
 ];
 
