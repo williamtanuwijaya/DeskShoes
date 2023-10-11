@@ -6,6 +6,9 @@
   .header_top__icon_wrapper {
     @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-slate-950 hover:text-black;
   }
+  .header_top__icon {
+    @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer;
+  }
   .navbar__link:hover {
     color: #000000;
     transition: all 0.4s;

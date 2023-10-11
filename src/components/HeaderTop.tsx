@@ -7,16 +7,16 @@ export default function HeaderTop() {
       <div className="container py-4">
         <div className="flex justify-between items-center">
           <div className="hidden lg:flex gap-1">
-            <div className="header_top__icon_wrapper">
+            <div className="header_top__icon">
               <BsFacebook />
             </div>
-            <div className="header_top__icon_wrapper">
+            <div className="header_top__icon">
               <BsTwitter />
             </div>
-            <div className="header_top__icon_wrapper">
+            <div className="header_top__icon">
               <BsInstagram />
             </div>
-            <div className="header_top__icon_wrapper">
+            <div className="header_top__icon">
               <BsLinkedin />
             </div>
           </div>
