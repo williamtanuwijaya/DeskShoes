@@ -21,7 +21,7 @@ export default function HeaderTop() {
             </div>
           </div>
           <div className="text-gray-500 text">
-            <b>Lorem, ipsum.</b> Lorem ipsum dolor sit amet.
+            <b>Inovation Product by Content Creator</b>
           </div>
 
           <div className="flex gap-4">
