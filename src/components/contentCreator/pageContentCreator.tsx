@@ -29,7 +29,7 @@ const Biodata: React.FC<BiodataProps> = ({ img, title, desc, instagram, youtube,
   return (
     <div className="flex flex-col items-center p-8 lg:p-16 bg-gray-100">
       <div className="mb-8 flex items-center">
-        <img src={img} alt="Profile" width={300} height={300} className="rounded-md" />
+        <Image src={img} alt="Profile" width={300} height={300} className="rounded-md" />
       </div>
       <div className="text-center max-w-2xl">
         <h1 className="text-xl font-bold mb-2">{title}</h1>
