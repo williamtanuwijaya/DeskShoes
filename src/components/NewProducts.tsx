@@ -33,17 +33,6 @@ const productsData = [
   },
 ];
 
-const generateRating = (rating) => {
-  const stars = [];
-  for (let i = 1; i <= 5; i++) {
-    if (i <= rating) {
-      stars.push(<AiFillStar key={i} className="text-[#FF9529]" />);
-    } else {
-      stars.push(<AiOutlineStar key={i} className="text-[#FF9529]" />);
-    }
-  }
-  return <div className="flex gap-1 text-[20px]">{stars}</div>;
-};
 
 export default function NewProducts() {
   return (

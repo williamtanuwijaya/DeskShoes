@@ -2,10 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import dataBlog from '../../dataBlog';
 
+interface Comment {
+  id: number;
+  text: string;
+  timestamp: string;
+}
 const BlogPost = ({ params }) => {
   const post = dataBlog.find((post) => String(post.id) === params.id);
   const [comment, setComment] = useState('');
-  const [comments, setComments] = useState([]);
+  const [comments, setComments] = useState<Comment[]>([]);
 
   useEffect(() => {
     const storedComments = localStorage.getItem(`comments_${params.id}`);
@@ -35,8 +40,8 @@ const BlogPost = ({ params }) => {
       text: comment,
       timestamp: getCurrentDateTime(),
     };
-
     // Update comments state
+    // setComments((prevComments) => [...prevComments, newComment]);
     setComments((prevComments) => [...prevComments, newComment]);
 
     // Save comments to local storage
